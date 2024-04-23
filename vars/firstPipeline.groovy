@@ -1,4 +1,5 @@
 import com.nagsacademy.builds.Calculator
+
 def call(Map pipelineParams) {
     Calculator calculator = new Calculator(this)
     pipeline {
